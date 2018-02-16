@@ -1,0 +1,13 @@
+$bodycolor : #553233;
+
+body {
+	background-color: $bodycolor ;
+	columns: 30px 2 ;
+}
+
+h1 {
+	a{
+		
+	}
+}
+
