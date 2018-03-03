@@ -9,4 +9,9 @@
 		background-color:#2f5572 ;
 		color:#fff ;
 	}
+
+	&--testimonials{
+		background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+		background-size: cover;
+	}
 }
