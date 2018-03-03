@@ -8,6 +8,14 @@
 	&__gutter > div{
 		padding-right: 65px; 
 	}
+
+	&__gutter-large {
+		margin-right: -100px;
+	}
+
+	&__gutter-large > div {
+		padding-right: 100px;
+	}
 	
 	&__b-m-until-medium {
 		margin-bottom: 1rem; 
@@ -16,6 +24,11 @@
 	@mixin atMedium{
 		&__b-m-until-medium {
 		margin-bottom: 0; 
+	 	}
+
+	 	&__medium-6{
+	 		float:left;
+	 		width: 50%;
 	 	}
 
 		&__m-4 {
