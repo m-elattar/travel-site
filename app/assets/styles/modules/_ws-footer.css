@@ -1,0 +1,9 @@
+.ws-footer{
+	background-color: #2f5572;
+	color:#fff;
+	text-align: center;
+
+	&__text{
+		margin-right: 1.5rem;
+	}
+}

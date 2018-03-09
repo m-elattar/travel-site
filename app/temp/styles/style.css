@@ -890,3 +890,13 @@ a {
 .testimonials--last{
 		margin-bottom: -10px;
 	}
+
+.ws-footer{
+	background-color: #2f5572;
+	color:#fff;
+	text-align: center;
+}
+
+.ws-footer__text{
+		margin-right: 1.5rem;
+	}
