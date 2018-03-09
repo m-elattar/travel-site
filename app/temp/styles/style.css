@@ -353,7 +353,7 @@ img {
 
 * {
 	box-sizing: border-box;
-/*	border:3px black solid;
+/*	border:1px black solid;
 */}
 
 a {
@@ -900,3 +900,44 @@ a {
 .ws-footer__text{
 		margin-right: 1.5rem;
 	}
+
+.ws-header{
+	background-color:rgba(47, 85, 114,.5); 
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+
+}
+
+.ws-header__content{
+		float: right;
+		width: 100%;
+	}
+
+.ws-header__image{
+		position: absolute;
+		background-color: #2f5572;
+		padding:.9rem;
+		top:0;
+		left: 1.5rem;
+	}
+
+.ws-header__btn{
+		float: right;
+		padding: 13px;
+		margin: 13px;
+	}
+
+.ws-header li{
+		float: right;
+		padding-right:15px;
+		list-style: none;
+		position: relative;
+		-webkit-transform: translateY(50%);
+		        transform: translateY(50%);
+		}
+
+.ws-header li a {
+			text-decoration: none ;
+			color:#fff;
+		}
