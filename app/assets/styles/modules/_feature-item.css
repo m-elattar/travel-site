@@ -8,13 +8,10 @@
 
 	&__icon{
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
+		margin : 0 auto;
 		@mixin atSmall{
-		position: absolute;
-		left: 0;
-		margin-left: 0;
-		margin-right: 0;
+			position: absolute;
+			left: 0;
 		}
 
 	}
