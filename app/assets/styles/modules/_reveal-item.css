@@ -1,8 +1,18 @@
 .reveal-item {
 	opacity: 0;
-	transition: opacity 1.5s ease-out;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.15);
+	   -moz-transform: scale(1.15);
+	    -ms-transform: scale(1.15);
+	     -o-transform: scale(1.15);
+	        transform: scale(1.15);
 
 	&--is-visible {
 		opacity: 1;
-	}
+		-webkit-transform: scale(1.0);
+		   -moz-transform: scale(1.0);
+		    -ms-transform: scale(1.0);
+		     -o-transform: scale(1.0);
+		        transform: scale(1.0);
+		    }
 }

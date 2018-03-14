@@ -1,3 +1,5 @@
 import RevealOnScroll from './modules/RevealOnScroll';
+import $ from 'jquery';
 
-var revealOnscroll = new RevealOnScroll();
+new RevealOnScroll($('.feature-item'),'85%');
+new RevealOnScroll($('.testimonials'),'60%');
