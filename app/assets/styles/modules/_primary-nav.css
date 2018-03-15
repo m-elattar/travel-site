@@ -18,5 +18,10 @@
 		font-weight: 300;
 		color:#fff;
 		text-decoration: none;
+
+		&.is-current-link{
+			color:#fabb69;
+		}
+
 	}
 }

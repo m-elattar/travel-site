@@ -994,4 +994,9 @@ a {
 		font-weight: 300;
 		color:#fff;
 		text-decoration: none;
+
 	}
+
+.primary-nav a.is-current-link{
+			color:#fabb69;
+		}
